@@ -32,4 +32,5 @@ def add_host(host):
 	host_id = hosts.insert_one(host).inserted_id
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
+    #app.run(debug=True)
