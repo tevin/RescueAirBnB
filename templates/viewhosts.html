@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Location</th>
+      <th>Max Guests</th>
+    </tr>
+  </thead>
+
+  <tbody>
+  	{% for host in hosts %}
+  	<tr>
+    <td>{{host.name}}</td>
+    <td>{{host.email}}</td>
+    <td>{{host.phone}}</td>
+    <td>{{host.location}}</td>
+    <td>{{host.maxguests}}</td>
+    <tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
