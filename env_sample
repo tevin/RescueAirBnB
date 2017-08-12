@@ -1,0 +1,3 @@
+MONGO_URI = mongodb://<user>:<pass>@<host>:<port>/rescuebnb
+SECRET_KEY = YOUR-SECRET-KEY-HERE
+ADMIN_PASS = YOUR-AUTH-PASSWORD-HERE
