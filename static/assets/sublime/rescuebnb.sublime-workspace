@@ -1,0 +1,791 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"wp_nav",
+				"wp_nav_menu"
+			],
+			[
+				"wpower",
+				"wpower-blue"
+			],
+			[
+				"wpowre",
+				"wpower-green"
+			],
+			[
+				"slide",
+				"slideDown\t.slideDown()"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"il",
+				"inline-block"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"sc",
+				"scrollTop\t.scrollTop()"
+			],
+			[
+				"inne",
+				"innerHeight\t.innerHeight()"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"permalink",
+				"get_permalink"
+			],
+			[
+				"posts_",
+				"posts_array"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"border-",
+				"border-top"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"tag",
+				"has_tag"
+			],
+			[
+				"fnot",
+				"font-size"
+			],
+			[
+				"get_category",
+				"get_all_category_ids"
+			],
+			[
+				"caeo",
+				"category_ID"
+			],
+			[
+				"cat",
+				"cats_array"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"is_s",
+				"is_single"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"lies",
+				"list-style-type"
+			],
+			[
+				"pa",
+				"pad\tpadding"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"get_cate",
+				"get_category_link"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"MARG",
+				"margin-bottom"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"bg",
+				"bg\tbackground: #${1:000};"
+			],
+			[
+				"mission",
+				"mission-bg"
+			],
+			[
+				"ov",
+				"ov\toverflow: ${1:hidden};"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"link",
+				"link_title"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"post",
+				"posts_array"
+			],
+			[
+				"get_pos",
+				"get_posts"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/index.html",
+			"settings":
+			{
+				"buffer_size": 690,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/config.rb",
+			"settings":
+			{
+				"buffer_size": 968,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 457.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/LICENSE",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/Procfile",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/README.md",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/requirements.txt",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/runtime.txt",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/templates/viewhosts.html",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/templates/addhosts.html",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/templates/index.html",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/app.py",
+		"/Applications/MAMP/htdocs/digitallegion/corporate/your-trainer/wp-content/themes/nirvana-axiom/single.php",
+		"/Users/martianskills/Downloads/wpdbx_dgtlgn.sql",
+		"/Applications/MAMP/htdocs/digitallegion/personal/pinky/assets/js/sketch.js",
+		"/Applications/MAMP/htdocs/digitallegion/personal/pinky/assets/js/libs.js",
+		"/Applications/MAMP/htdocs/digitallegion/personal/pinky/assets/js/js.js",
+		"/Applications/MAMP/htdocs/skyline/2016/skyline/about.html",
+		"/Applications/MAMP/htdocs/skyline/2016/skyline/chronicles.html",
+		"/Applications/MAMP/htdocs/skyline/2016/skyline/contact.html",
+		"/Applications/MAMP/htdocs/skyline/2016/skyline/portfolio.html",
+		"/Users/martianskills/Downloads/smooth-page-transition-with-history-web-api-master/assets/js/script.js",
+		"/Applications/MAMP/htdocs/skyline/2016/skyline/assets/js/modernizr-custom.min.js",
+		"/Applications/MAMP/htdocs/digitallegion/corporate/cs005-tyler/wp-config.php",
+		"/Applications/MAMP/htdocs/side/trinity/wp-content/themes/tbc/parts/masthead.php",
+		"/Applications/MAMP/htdocs/skyline/2017/digitallegion.dev/wp-content/themes/digitallegion/front-page.php",
+		"/Applications/MAMP/htdocs/skyline/digitallegion/client/index.html",
+		"/Users/martianskills/Downloads/untitled folder/index.html",
+		"/Users/martianskills/Downloads/enquiry (13).csv",
+		"/Applications/MAMP/htdocs/side/cklaw/wp-content/themes/cklaw/page-practice.php",
+		"/Applications/MAMP/htdocs/side/cklaw/wp-content/themes/cklaw/page-team.php",
+		"/Applications/MAMP/htdocs/side/cklaw/wp-content/themes/cklaw/front-page.php",
+		"/Applications/MAMP/htdocs/side/cklaw/wp-content/themes/cklaw/parts/masthead.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/assets/js/admin.js",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/external/custom-post-types/jobs.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/external/custom-post-types/video.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/archive-video.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/assets/sass/_colors.scss",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/functions.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/assets/css/flexslider.css",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/parts/footer.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/single.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/page-about.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/parts/header.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/index.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/front-page.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa-magazine/style.css",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/page-about.php",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/front-page.php",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/index.php",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/parts/footer.php",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/parts/header.php",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/assets/sass/_colors.scss",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/assets/css/flexslider.css",
+		"/Applications/MAMP/htdocs/side/2016/mookh/_static/dist/direct/js/vendor.js",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-content/themes/lysa/style.css",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-content/themes/dtf-corporate/style.css",
+		"/Applications/MAMP/htdocs/side/2016/mookh/wp-content/themes/mookh-directory/style.css",
+		"/Users/martianskills/Library/Caches/com.binarynights.ForkLift2/#1/jobify.php",
+		"/Users/martianskills/Library/Caches/com.binarynights.ForkLift2/#0/full-width.php",
+		"/Applications/MAMP/htdocs/side/2016/kocela/_static/assets/sass/css.scss",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/_static/assets/sass/css.scss",
+		"/Users/martianskills/Library/Caches/com.binarynights.ForkLift2/#5/index.php",
+		"/Users/martianskills/Library/Caches/com.binarynights.ForkLift2/#1/wp-config.php",
+		"/Applications/MAMP/htdocs/side/2016/LYSA/wp-config.php",
+		"/Applications/MAMP/htdocs/side/2016/kocela/wp-config.php",
+		"/Applications/MAMP/htdocs/skyline/2016/dtf-wp/wp-config.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/parts/footer.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/single-collaboration.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/parts/header.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/page.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/functions.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/external/custom-post-types/collaborations.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/page-about.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/front-page.php",
+		"/Applications/MAMP/htdocs/skyline/2016/urban-artefacts/WP/wp-content/themes/artefact/assets/js/libs.js",
+		"/Applications/MAMP/htdocs/skyline/2016/data-fintech/wp-content/themes/dtf-event/assets/sass/style.scss",
+		"/Applications/MAMP/htdocs/skyline/2016/data-fintech/wp-content/themes/dtf-event/assets/sass/_colors.scss",
+		"/Applications/MAMP/htdocs/skyline/2016/data-fintech/wp-content/themes/dtf-event/functions.php",
+		"/Applications/MAMP/htdocs/skyline/2016/data-fintech/wp-content/themes/dtf-event/assets/js/js.js",
+		"/Applications/MAMP/htdocs/skyline/2016/data-fintech/wp-content/themes/dtf-event/assets/sass/_utilities.scss",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/css/lib/font-hilltericon.css",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/images/icon-slider-1.png",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/about.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/activiti-detail.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/activiti.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/attractions.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/blog-detail-fullwidth.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/blog-detail.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/blog.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/check-out.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/comingsoon.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/contact.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/events-detail.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/events-fullwidth.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/events.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/gallery-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/gallery-3.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/gallery.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/guest-book-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/guest-book.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/index-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/index.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/login.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/page-404.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/register.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/reservation-step-1.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/reservation-step-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/reservation-step-3.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/reservation-step-4.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/reservation-step-5.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/restaurants-1.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/restaurants-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/restaurants-3.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/restaurants-4.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-1.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-3.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-4.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-5.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-6.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/room-detail.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/shortcode.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/term-condition-2.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/term-condition.html",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/css/style.css",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/js/min/scripts.min.js",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/js/scripts.js",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/less/main.less",
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/less/style.less",
+		"/Users/martianskills/Downloads/mods.css"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/side/2016/mookh/_static,/Applications/MAMP/htdocs/digitallegion/corporate/cs005-mylittleheaventrust/wp-content/",
+			"/Applications/MAMP/htdocs/side/2016/mookh/_static,/Applications/MAMP/htdocs/digitallegion/corporate/cs005-mylittleheaventrust/wp-content/themes",
+			"/Applications/MAMP/htdocs/side/2016/mookh/_static",
+			"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"trx_addons_cpt_param",
+			"supports",
+			"new.digitallegion.dev",
+			"vars",
+			"input",
+			"time_limit",
+			"limit",
+			"http://mylittleheaventrust.dll",
+			"<h5 class=\"sc_services_item_title\">",
+			"<span class=\"sc_button_title\">",
+			"<span class=\"sc_button_title\">Request Appointment</span>",
+			"carousel",
+			") { ",
+			"pageY",
+			"pageX",
+			" @incl",
+			"pink",
+			" }",
+			"red",
+			": -",
+			"260",
+			" internal\">",
+			"'",
+			" event",
+			"event",
+			"console.log",
+			"document",
+			"pink3",
+			"violet",
+			"indigo",
+			"orange",
+			"yellow",
+			"purple",
+			"blue",
+			"green",
+			"purple",
+			"red",
+			"after",
+			"d.",
+			"alert",
+			") {",
+			": background:",
+			" background:",
+			"<a href=\"\">",
+			"animation",
+			" nav ul",
+			"title",
+			"span",
+			"triggerBttn",
+			".overlay-hugeinc",
+			"32",
+			".hamburger--emphatic",
+			".hamburger-inner",
+			".hamburger .hamburger-inner",
+			".hamburger-box",
+			"0.2s",
+			"@include transition (.3s);",
+			" #0895c9",
+			"  #0895c9",
+			"#0895c9",
+			"$brand-primary",
+			"logo.png",
+			"60",
+			"&nbsp;",
+			"\n    ",
+			"cta",
+			"flex-box",
+			"73",
+			"left",
+			"home",
+			"80",
+			"startup",
+			"#startups",
+			"#startup-",
+			"#startup",
+			"startup",
+			"Job",
+			"jobs",
+			"ad1",
+			"digitallegion.dev",
+			"0",
+			"before",
+			"vh",
+			"Google result is your own website",
+			"social media",
+			" target=\"_blank\"",
+			"rel=\"nofollow\"",
+			"img",
+			"right",
+			"class=\"img\"",
+			"a ",
+			"\t\t\t\t\t\t<div class=\"img\"></div>\n",
+			"title",
+			"Roarke",
+			"0.1;",
+			"bob",
+			"bobo",
+			"-20px",
+			"margin-bottom: 0",
+			"20px",
+			"top",
+			"orbit",
+			";",
+			"content-section",
+			"&bull; ",
+			"mdash",
+			"$highlight-bg",
+			"000",
+			"$placeholder-color",
+			"recent-work",
+			"ul",
+			"dotted",
+			"strong",
+			"com</a>",
+			"<div class=\"folio",
+			"<div class=\"f",
+			"<a href=",
+			"fill",
+			"SCREEN_WIDTH",
+			"canvas",
+			"fillColor",
+			"><",
+			"$highlight-bg",
+			"rgba(",
+			"<input ",
+			"\"Courier New\", m",
+			"=\"text\">",
+			"http://wpowerhub.org"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"digitallegion.co.ke",
+			"http://mylittleheaventrust.com",
+			"",
+			"hillterIcon",
+			"phoenicia",
+			"Phoenicia",
+			"phoeniciahotelnairobi",
+			"Phoenicia Hotel Nairobi",
+			"#e5ba62",
+			"    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\n    <link href=\"/images/favicon.png\" rel=\"shortcut icon\" />\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "rescuebnb.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

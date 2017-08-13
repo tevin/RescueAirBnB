@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+	<title>Host Sign Up | RescueBnB</title>
+	<link rel="stylesheet" href="assets/css/css.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/ico" href="assets/img/favicon.ico">
+</head>
+
+<body class="preload">
+
+	<!-- .masthead -->
+	<header class="masthead">
+		<div class="wrap">
+			<a href="" class="logo">&nbsp;</a>
+			<ul class="menu-main">
+				<li><a href="" class="active">Home</a></li>
+				<li><a href="">Get Involved</a></li>
+				<li><a href="">Stats &amp; Stories</a></li>
+				<li><a href="">Contact Us</a></li>
+				<li><a href="" class="button button--secondary">Login</a></li>
+			</ul>
+			<a href="" class="trigger-menu-mobile">Menu</a>
+		</div>
+	</header>
+	<!--/ .masthead -->
+
+	<!-- .menu-mobile -->
+	<nav class="menu-mobile-container">
+		<div class="wrap">
+			<ul class="menu-mobile">
+				<li><a href="" class="active">Home</a></li>
+				<li><a href="">Get Involved</a></li>
+				<li><a href="">Stats &amp; Stories</a></li>
+				<li><a href="">Contact Us</a></li>
+				<li><a href="">Login</a></li>
+			</ul>			
+		</div>
+	</nav>
+	<!--/ .menu-mobile -->
+
+	<!-- .banner -->
+	<section class="banner banner--sub">
+		<div class="wrap">
+			<h1>Host Sign Up</h1>
+		</div>
+	</section>
+	<!--/ .banner -->
+		
+	<!-- .content -->
+	<section class="content overhide">
+		<div class="wrap">
+			<form action="/addhosts" method="POST">
+				<div class="form-group">
+					<label for="name">Name</label>
+					<input type="text" name="name" required="true" class="form-control" id="name" placeholder="First Last">
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" required="true" class="form-control" id="email" placeholder="email@example.com">
+				</div>
+
+				<div class="form-group">
+					<label for="phone">Phone</label>
+					<input type="text" name="phone" required="true" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="0722 123 456">
+				</div>
+
+				<fieldset class="form-group">
+					<label for="gender">Gender</label>
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" class="form-check-input" name="gender" id="male" value="male" checked="">
+							Male
+						</label>
+					</div>
+
+					<div class="form-check">
+						<label class="form-check-label">
+							<input type="radio" class="form-check-input" name="gender" id="female" value="female">
+							Female
+						</label>
+					</div>
+				</fieldset>
+
+				<div class="form-group">
+					<label for="location">Location</label>
+
+					<input type="text" name="location" required="true" class="form-control" id="location" aria-describedby="locationhelp" placeholder="Ngei 2 Estate, Langaata">
+					<small id="locationhelp" class="form-text text-muted">Where are you located? The more specific the better.</small>     
+				</div>
+
+				<div class="form-group">
+					<label for="maxguests">How many people can you host?</label>
+
+					<input type="number" name="maxguests" required="true" class="form-control" id="maxguests" aria-describedby="maxguestshelp" placeholder="5">
+					<small id="maxguestshelp" class="form-text text-muted">The maximum number of guests you can host</small>  
+				</div>
+
+				<button type="submit" class="button button--secondary">Submit</button>
+			</form>		
+		</div>
+	</section>
+	<!--/ .content -->
+		
+	<!-- .footer -->
+	<footer class="footer">
+		<div class="wrap clearfix">
+			<a href="https://twitter.com/ResQueBnB" class="twitter" target="_blank">Follow us <span>@ResQueBnB</span></a>
+			<nav class="menu-footer right">
+				<a href="">Contact Us</a>
+				<a href="">Privacy Policy</a>
+				<a href="">Terms of Service</a>
+				<span>Copyright &copy; 2017</span>
+			</nav>
+		</div>
+	</footer>
+	<!--/ .footer -->
+		
+	<script src="assets/js/jquery-1.8.1.min.js"></script>
+  	<script src="assets/js/modernizr-custom.min.js"></script>
+	<script src="assets/js/libs.js"></script>
+	<script src="assets/js/js.js"></script>
+</body>
+</html>
