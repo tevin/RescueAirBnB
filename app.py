@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect
 from pymongo import MongoClient
 from envparse import env
 from flask_httpauth import HTTPDigestAuth
@@ -44,8 +44,7 @@ def hosts():
 		hosts_collection = db.hosts
 		host = request.form.to_dict()
 		hosts_collection.insert_one(host) # should probably check for completed insert
-		return redirect(url_for('show_home'))
-	
+		return redirect('/')
 	return render_template('addhosts.html')
 
 # "Secured" endpoint for viewing registered hosts
