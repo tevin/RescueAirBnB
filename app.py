@@ -47,6 +47,11 @@ def hosts():
 		return redirect('/')
 	return render_template('addhosts.html')
 
+# Get involved page
+@app.route('/getinvolved')
+def get_involved():
+	return render_template('get_involved.html')
+
 # "Secured" endpoint for viewing registered hosts
 @app.route('/hosts')
 @auth.login_required
