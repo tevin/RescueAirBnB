@@ -7,6 +7,8 @@ jQuery(function($) {
 			$body			= $('body'),
 			wWidth 			= $(window).innerWidth(),
 			wHeight 		= $(window).innerHeight(),
+			mNav 			= $body.find('.menu-mobile'),
+			mNavTrig 		= $body.find('.trigger-menu-mobile'),
 			baseUrl			= 'http://' + top.location.host.toString(),
 			templateUrl		= baseUrl + '',
 			assetsUrl		= templateUrl + '/assets',
@@ -20,6 +22,11 @@ jQuery(function($) {
 			$.each($internalLinks, function(index, link) {
 				$(link).addClass('internal');
 			});
+
+			mNavTrig.on('click', function(e) {
+				mNav.stop(true, true).slideToggle();
+				e.preventDefault();
+			})
 
 			$(window).load(function() {
 

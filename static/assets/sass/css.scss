@@ -71,6 +71,10 @@ p {
 	text-transform: uppercase;
 }
 
+.menu-mobile-container {
+	background: rgba(#000,0.85);
+}
+
 .banner {
 	height: 420px;
 	background: $bg-color-primary image-url('banner-bg.jpg') no-repeat;
@@ -85,6 +89,7 @@ p {
 .footer {
 	height: 160px;
 	color: $txt-color-secondary;
+	border-top: 1px solid rgba(#000,0.02);
 }
 
 
@@ -161,6 +166,7 @@ a.button {
 			display: inline-block;
 			padding: 8px 22px;
 			@include transition(color 0.3s ease);
+			color: $txt-color-secondary;
 
 			&.button {
 				padding: 8px 42px;
@@ -175,6 +181,41 @@ a.button {
 			}
 		}
 	}
+}
+
+.menu-mobile {
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: none;
+
+	a {
+		display: block;
+		color: rgba(#fff,0.85);
+		padding: 9px 0;
+		border-bottom: 1px dotted rgba(#fff,0.1);
+
+		&.active { color: $bg-color-secondary; }
+	}
+
+	li:last-child a { border-bottom: none; }
+}
+
+.trigger-menu-mobile {
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  padding: 32px 10px 26px 40px;
+  font-size: 14px;
+  color: $txt-color-secondary;
+  display: none; 
+}
+.trigger-menu-mobile:before {
+  font-family: "FontAwesome";
+  content: "\f0c9";
+  font-size: 23px;
+  margin-left: -28px;
+  margin-top: -7px;
 }
 
 .banner .wrap {
@@ -205,6 +246,8 @@ a.button {
 
 	.card__inner {
 		position: relative;
+		@include box-sizing(border-box);
+		height: 100%;
 
 		.card:nth-child(odd) & {
 			padding: 110px 40px 80px 110px;
@@ -302,10 +345,57 @@ a.twitter {
 @media (max-width: 1200px) {
 
 	.wrap { width: 90%; }
+	.card__inner br { display: none; }
+	.footer { height: auto; padding-bottom: 40px; }
+	.menu-footer.right { float: none; padding-top: 40px; }
+	.menu-footer a { margin-right: 22px; }
+	.menu-footer a:after { content: "."; right: -15px; }
+
+}
+
+@media (max-width: 900px) {
+
+	.menu-main { display: none; }
+	.trigger-menu-mobile { display: inline-block; }
 
 }
 
 @media (max-width: 800px) {
+
+	.banner { height: auto; padding-bottom: 22px;}
+	.banner .wrap { padding-top: 76px; }
+	h1 { font-size: 26px; }
+	p.half-wide { margin-right: 0; font-size: 16px; } 
+
+	.card {
+		width: 100%;
+
+		&:nth-child(odd):after {
+			width: 100%;
+			height: 100%;
+			background: rgba(#000,0.04);
+			left: 100%;
+			top: 0;
+		}
+		&:nth-child(even):after {
+			width: 100%;
+			height: 100%;
+			background: rgba(#000,0.02);
+			right: 100%;
+			top: 0;
+		}
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	.txt-inverted .button, .txt-inverted a.button { margin-bottom: 16px; @include border-top-left-radius(0); @include border-bottom-left-radius(0); }
+
+	.card__inner:before { top: 20px; }
+	.card:nth-child(odd) .card__inner { padding-left: 0; }
+	.card:nth-child(even) .card__inner { padding-left: 0; }
+	.card:nth-child(even) .card__inner:before { left: 0; }
 
 }
 

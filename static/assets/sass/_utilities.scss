@@ -50,7 +50,7 @@ section, div, header, footer {
 .block		{ display: block; }
 .iblock		{ display: inline-block; }
 
-.flex 			{ @include display-flex; }
+.flex 			{ @include display-flex; @include flex-wrap(wrap); }
 .flex-center 	{ @include align-items(center); }
 
 
