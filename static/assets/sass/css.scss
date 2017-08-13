@@ -301,6 +301,7 @@ button.button {
 		@include box-sizing(border-box);
 		height: 100%;
 
+
 		.card:nth-child(odd) & {
 			padding: 110px 40px 80px 110px;
 			background: rgba(#000,0.04);
