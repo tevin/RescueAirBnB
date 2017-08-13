@@ -14,3 +14,6 @@ Thumbs.db
 
 # Sublime
 _static/assets/sublime
+
+#Config
+env

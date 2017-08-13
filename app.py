@@ -34,15 +34,17 @@ def mongo_login():
 # Home page with host form
 @app.route('/')
 def show_home():
-	return render_template('addhosts.html')
+	return render_template('index.html')
 
 # Post endpoint for committing host to db
-@app.route('/addhost', methods = ['POST'])
+@app.route('/addhost', methods = ['GET', 'POST'])
 def hosts():
-	db = mongo_login()
-	hosts_collection = db.hosts
-	host = request.form.to_dict()
-	hosts_collection.insert_one(host) # should probably check for completed insert
+	if request.method == 'POST':
+		db = mongo_login()
+		hosts_collection = db.hosts
+		host = request.form.to_dict()
+		hosts_collection.insert_one(host) # should probably check for completed insert
+		return redirect(url_for('show_home'))
 	
 	return render_template('addhosts.html')
 
