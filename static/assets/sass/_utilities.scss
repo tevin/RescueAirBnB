@@ -13,6 +13,9 @@
 .txt-left	{ text-align: left; }
 .txt-right	{ text-align: right; }
 .uppercase  { text-transform: uppercase; }
+section, div, header, footer {
+	&.txt-inverted { color: #fff; }
+}
 
 .txt-hide {
 	text-indent: 100%;
