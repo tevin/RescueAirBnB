@@ -96,6 +96,8 @@ p {
 	color: $txt-color-primary;
 }
 
+.row:nth-child(2) .card__inner { border-top: 1px solid rgba(#000,0.04); }
+
 .footer {
 	height: 160px;
 	color: $txt-color-secondary;
@@ -312,6 +314,8 @@ button.button {
 			&:before { left: 40px; }
 		}
 
+		.card.card--no-arrow & { padding: 70px 0 35px 70px; }
+
 		&:before {
 			width: 80px;
 			height: 93px;
@@ -327,6 +331,8 @@ button.button {
 			bottom: 35px;
 			right: 40px;
 			@include transition(all 0.3s ease);
+
+			.card--no-arrow & { display: none; }
 		}
 	}
 
@@ -338,12 +344,10 @@ button.button {
 		@include translateX(10px);
 	}
 
-	.card--contribute .card__inner:before {
-		background-image: image-url('icon-contribute.png');
-	}
-	.card--stats .card__inner:before {
-		background-image: image-url('icon-stats.png');
-	}
+	.card--contribute .card__inner:before { background-image: image-url('icon-contribute.png'); }
+	.card--stats .card__inner:before { background-image: image-url('icon-stats.png'); }
+	.card--m-changa .card__inner:before { background-image: image-url('icon-m-changa.png'); }
+	.card--supplies .card__inner:before { background-image: image-url('icon-supplies.png'); }
 
 .footer .wrap {
 	padding-top: 60px;
