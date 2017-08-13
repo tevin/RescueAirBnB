@@ -1,50 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0">
 	<title>RescueBnB</title>
-
-	<!-- Bootstrap core CSS -->
-	<link href="../static/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Custom styles for this template -->
-	<link href="../static/css/starter.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="../static/assets/css/css.css" type="text/css" />
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/ico" href="../static/assets/img/favicon.ico">
+	{% block head %}
+	{% endblock %}
 </head>
 
-<body>
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<body class="preload">
 
-		<a class="navbar-brand" href="#">RescueBnB</a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-<!-- 
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Hosts <span class="sr-only">(current)</span></a>
-				</li>
+	<!-- .masthead -->
+	<header class="masthead">
+		<div class="wrap">
+			<a href="/" class="logo">&nbsp;</a>
+			<ul class="menu-main">
+				<li><a href="/" class="active">Home</a></li>
+				<li><a href="/addhost">Get Involved</a></li>
+				<li><a href="">Stats &amp; Stories</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="/hosts" class="button button--secondary">Login</a></li>
 			</ul>
-		</div> -->
+			<a href="" class="trigger-menu-mobile">Menu</a>
+		</div>
+	</header>
+	<!--/ .masthead -->
+
+	<!-- .menu-mobile -->
+	<nav class="menu-mobile-container">
+		<div class="wrap">
+			<ul class="menu-mobile">
+				<li><a href="/" class="active">Home</a></li>
+				<li><a href="/addhost">Get Involved</a></li>
+				<li><a href="">Stats &amp; Stories</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="/hosts">Login</a></li>
+			</ul>			
+		</div>
 	</nav>
-
-	<div class="container">
-		{% block body %}{% endblock %}
-	</div>
-
-	<br />
-	<br />
-	<br />
-	<!-- Bootstrap core JavaScript
-	================================================== -->
-	<!-- Placed at the end of the document so the pages load faster -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-	<script src="../static/js/bootstrap.min.js"></script>
+	<!--/ .menu-mobile -->
+	
+	{% block body %}
+	{% endblock %}
+		
+	<!-- .footer -->
+	<footer class="footer">
+		<div class="wrap clearfix">
+			<a href="https://twitter.com/ResQueBnB" class="twitter" target="_blank">Follow us <span>@ResQueBnB</span></a>
+			<nav class="menu-footer right">
+				<a href="">Contact Us</a>
+				<a href="">Privacy Policy</a>
+				<a href="">Terms of Service</a>
+				<span>Copyright &copy; 2017</span>
+			</nav>
+		</div>
+	</footer>
+	<!--/ .footer -->
+		
+	<script src="../static/assets/js/jquery-1.8.1.min.js"></script>
+  	<script src="../static/assets/js/modernizr-custom.min.js"></script>
+	<script src="../static/assets/js/libs.js"></script>
+	<script src="../static/assets/js/js.js"></script>
 </body>
 </html>
