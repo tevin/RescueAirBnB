@@ -7,6 +7,8 @@
 	<link rel="stylesheet" href="../static/assets/css/css.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" type="image/ico" href="../static/assets/img/favicon.ico">
+	{% block head %}
+	{% endblock %}
 </head>
 
 <body class="preload">
@@ -20,7 +22,7 @@
 				<li><a href="/addhost">Get Involved</a></li>
 				<li><a href="">Stats &amp; Stories</a></li>
 				<li><a href="#">Contact Us</a></li>
-				<li><a href="" class="button button--secondary">Login</a></li>
+				<li><a href="/hosts" class="button button--secondary">Login</a></li>
 			</ul>
 			<a href="" class="trigger-menu-mobile">Menu</a>
 		</div>
@@ -35,7 +37,7 @@
 				<li><a href="/addhost">Get Involved</a></li>
 				<li><a href="">Stats &amp; Stories</a></li>
 				<li><a href="#">Contact Us</a></li>
-				<li><a href="">Login</a></li>
+				<li><a href="/hosts">Login</a></li>
 			</ul>			
 		</div>
 	</nav>
