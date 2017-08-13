@@ -446,6 +446,8 @@ a.twitter {
 
 @media (max-width: 500px) {
 
+	.wrap { width: 90%; }
+
 	.txt-inverted .button, .txt-inverted a.button { margin-bottom: 16px; @include border-top-left-radius(0); @include border-bottom-left-radius(0); }
 
 	.card__inner:before { top: 20px; }
