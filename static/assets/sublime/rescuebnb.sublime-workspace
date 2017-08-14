@@ -4,16 +4,36 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-top"
+				"txt-color",
+				"txt-color-secondary"
 			],
 			[
-				"marg",
-				"margin-left"
+				"text",
+				"text-transform"
 			],
 			[
 				"pad",
 				"padding"
+			],
+			[
+				"border-bott",
+				"border-bottom-left-radius"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"txt-color-",
+				"txt-color-primary"
+			],
+			[
+				"marg",
+				"margin-left"
 			],
 			[
 				"min",
@@ -34,14 +54,6 @@
 			[
 				"font",
 				"font-style"
-			],
-			[
-				"text",
-				"text-align"
-			],
-			[
-				"font-",
-				"font-weight"
 			],
 			[
 				"padd",
@@ -267,7 +279,34 @@
 			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/index.html",
 			"settings":
 			{
-				"buffer_size": 690,
+				"buffer_size": 2868,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/signup-host.html",
+			"settings":
+			{
+				"buffer_size": 4625,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/get-involved.html",
+			"settings":
+			{
+				"buffer_size": 4486,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/css.scss",
+			"settings":
+			{
+				"buffer_size": 9134,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -276,7 +315,39 @@
 			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/config.rb",
 			"settings":
 			{
-				"buffer_size": 968,
+				"buffer_size": 966,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/js/js.js",
+			"settings":
+			{
+				"buffer_size": 1667,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/_utilities.scss",
+			"settings":
+			{
+				"buffer_size": 2612,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/_colors.scss",
+			"settings":
+			{
+				"buffer_size": 308,
 				"line_ending": "Unix"
 			}
 		}
@@ -323,10 +394,14 @@
 	"expanded_folders":
 	[
 		"/Applications/MAMP/htdocs/charity/RescueAirBnB",
-		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static"
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static/signup-host.html",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static/login.html",
+		"/Applications/MAMP/htdocs/charity/RescueAirBnB/static/config.rb",
 		"/Applications/MAMP/htdocs/charity/RescueAirBnB/LICENSE",
 		"/Applications/MAMP/htdocs/charity/RescueAirBnB/Procfile",
 		"/Applications/MAMP/htdocs/charity/RescueAirBnB/README.md",
@@ -451,14 +526,11 @@
 		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/term-condition.html",
 		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/css/style.css",
 		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/js/min/scripts.min.js",
-		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/js/scripts.js",
-		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/less/main.less",
-		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/less/style.less",
-		"/Users/martianskills/Downloads/mods.css"
+		"/Applications/MAMP/htdocs/side/mucheru/phoeniciahotel/js/scripts.js"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -476,6 +548,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"m-changa",
+			"row",
+			"\"inner\"",
+			"<div class=\"card",
+			"row",
+			"primary",
+			"></",
+			"banner",
 			"trx_addons_cpt_param",
 			"supports",
 			"new.digitallegion.dev",
@@ -595,15 +675,7 @@
 			"<a href=",
 			"fill",
 			"SCREEN_WIDTH",
-			"canvas",
-			"fillColor",
-			"><",
-			"$highlight-bg",
-			"rgba(",
-			"<input ",
-			"\"Courier New\", m",
-			"=\"text\">",
-			"http://wpowerhub.org"
+			"canvas"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -640,15 +712,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 690,
+						"buffer_size": 2868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								469,
-								469
+								2853,
+								2853
 							]
 						],
 						"settings":
@@ -657,7 +729,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 759.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -665,19 +737,112 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/config.rb",
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/signup-host.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 968,
+						"buffer_size": 4625,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4610,
+								4610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/get-involved.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4471,
+								4471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1337.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/css.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7552,
+								7552
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7471.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
 							]
 						],
 						"settings":
@@ -688,14 +853,125 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/js/js.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1667,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								769,
+								769
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/_fonts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 79.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/_utilities.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1192,
+								1192
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 26.0,
+						"translation.y": 545.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Applications/MAMP/htdocs/charity/RescueAirBnB/static/assets/sass/_colors.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],

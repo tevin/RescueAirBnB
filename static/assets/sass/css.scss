@@ -7,8 +7,8 @@ Version: 	1.0
 //	Z-Indexes
 // -----------------------------------------------/
 //
-//  999	- .masthead
-//	1	- .viewport
+//  999	- .content
+//	1	- .banner
 //
 // -----------------------------------------------/
 
@@ -79,6 +79,7 @@ p {
 	height: 420px;
 	background-color: rgba(#000,0.04);
 	font-size: 20px;
+	z-index: 1;
 
 	&.txt-inverted {
 		background-color: $bg-color-primary;
@@ -94,6 +95,50 @@ p {
 
 .content {
 	color: $txt-color-primary;
+	z-index: 999;
+}
+
+.main-col {
+	width: 55%;
+	float: left;
+}
+
+.side-col {
+	width: 45%;
+	float: right;
+}
+
+.victim-message {
+	padding-left: 60px;
+	margin-top: 73px;
+
+	blockquote {
+		padding: 20px 40px 40px;
+		background: rgba($bg-color-secondary,0.1);
+		@include border-radius(5px);
+
+		p { clear: both; }
+
+		.avi {
+			margin: -50px 0 10px -12px;
+			display: block;
+			width: 70px;
+			height: 70px;
+			@include border-radius(50px);
+			border: 5px solid #fff;
+			float: left;
+			background: rgba(#000,0.1);
+
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.name {
+			color: $txt-color-primary;
+		}
+	}
 }
 
 .row:nth-child(2) .card__inner { border-top: 1px solid rgba(#000,0.04); }
@@ -413,6 +458,9 @@ a.twitter {
 	.menu-main { display: none; }
 	.trigger-menu-mobile { display: inline-block; }
 
+	.main-col, .side-col { width: 100%; float: none; }
+	.victim-message { padding-left: 0; }
+
 }
 
 @media (max-width: 800px) {
@@ -446,7 +494,7 @@ a.twitter {
 
 @media (max-width: 500px) {
 
-	.wrap { width: 90%; }
+	.wrap { width: 85%; }
 
 	.txt-inverted .button, .txt-inverted a.button { margin-bottom: 16px; @include border-top-left-radius(0); @include border-bottom-left-radius(0); }
 
@@ -454,6 +502,10 @@ a.twitter {
 	.card:nth-child(odd) .card__inner { padding-left: 0; }
 	.card:nth-child(even) .card__inner { padding-left: 0; }
 	.card:nth-child(even) .card__inner:before { left: 0; }
+
+	.banner.banner--sub { height: 170px; background-color: rgba(0, 0, 0, 0.1); }
+	.banner .wrap { padding-top: 80px; }
+	.footer { background: rgba(0,0,0,0.05); }
 
 }
 
