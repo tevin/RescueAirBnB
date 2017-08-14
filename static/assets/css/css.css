@@ -468,6 +468,7 @@ p.half-wide {
   border: 5px solid #fff;
   float: left;
   background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .victim-message blockquote .avi img {
   width: 100%;
