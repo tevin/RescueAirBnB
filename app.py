@@ -79,6 +79,10 @@ def viewhosts():
 	return render_template('viewhosts.html', hosts=list(hosts_collection.find()),
 		guests=list(guests_collection.find()))
 
+@app.route('/ussd')
+def ussd():
+	return render_template('index.html')
+
 if __name__ == '__main__':
 	app.run()
     #app.run(debug=True)
