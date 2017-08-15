@@ -81,6 +81,10 @@ def viewhosts():
 
 @app.route('/ussd')
 def ussd():
+	db = mongo_login()
+	ussd_collection = db.ussd
+	ussd = request.form.to_dict()
+	ussd_collection.insert_one(ussd)
 	return render_template('index.html')
 
 if __name__ == '__main__':
