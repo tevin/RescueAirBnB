@@ -63,6 +63,11 @@ def guests():
 def get_involved():
 	return render_template('get_involved.html')
 
+# Get involved page
+@app.route('/volunteer')
+def volunteer():
+	return render_template('volunteer.html')
+
 # "Secured" endpoint for viewing registered hosts
 @app.route('/hosts')
 @auth.login_required
