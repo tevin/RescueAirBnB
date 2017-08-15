@@ -74,7 +74,10 @@ def volunteer():
 def viewhosts():
 	db = mongo_login()
 	hosts_collection = db.hosts
-	return render_template('viewhosts.html', hosts=list(hosts_collection.find()))
+	guests_collection = db.guests
+	
+	return render_template('viewhosts.html', hosts=list(hosts_collection.find()),
+		guests=list(guests_collection.find()))
 
 if __name__ == '__main__':
 	app.run()

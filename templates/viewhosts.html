@@ -6,7 +6,9 @@
 {% endblock %}
 
 {% block body %}
+
 <div class ="wrap">
+	</hi> Hosts </h1>
 	<table class="table table-striped">
 		<thead>
 			<tr>
@@ -31,6 +33,38 @@
 		</tbody>
 	</table>
 </div>
+
+</br>
+</br>
+</br>
+
+<div class ="wrap">
+	</hi> Requests for Shelter </h1>
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th>Location</th>
+				<th>Number of Guests</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{% for guest in guests %}
+			<tr>
+				<td>{{guest.name}}</td>
+				<td>{{guest.email}}</td>
+				<td>{{guest.phone}}</td>
+				<td>{{guest.location}}</td>
+				<td>{{guest.maxguests}}</td>
+			<tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</div>
+
 
 <script src="../static/assets/js/bootstrap.min.js"></script>
 {% endblock %}
