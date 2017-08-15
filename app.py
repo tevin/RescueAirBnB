@@ -47,6 +47,17 @@ def hosts():
 		return redirect('/')
 	return render_template('addhosts.html')
 
+# Post endpoint for committing people who need shelter to db
+@app.route('/requestshelter', methods = ['GET', 'POST'])
+def guests():
+	if request.method == 'POST':
+		db = mongo_login()
+		guest_collection = db.guests
+		guest = request.form.to_dict()
+		guest_collection.insert_one(guest) # should probably check for completed insert
+		return redirect('/')
+	return render_template('request_shelter.html')
+
 # Get involved page
 @app.route('/getinvolved')
 def get_involved():
