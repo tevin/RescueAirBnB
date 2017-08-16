@@ -122,9 +122,9 @@ p {
 		.avi {
 			margin: -50px 0 10px -12px;
 			display: block;
-			width: 70px;
-			height: 70px;
-			@include border-radius(50px);
+			width: 90px;
+			height: 90px;
+			@include border-radius(90px);
 			border: 5px solid #fff;
 			float: left;
 			background: rgba(#000,0.1);
